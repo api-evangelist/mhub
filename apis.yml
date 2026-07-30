@@ -1,7 +1,27 @@
 aid: mhub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mhub.png
 name: MHub
-description: MHub is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MHub is a Malaysian property-technology (proptech) platform operated by TRB
+  Ventures Sdn Bhd and backed by 500 Global. It gives real-estate developers an
+  integrated system to manage the entire new-property sales cycle — from lead
+  generation, launch, and online booking (Showroom, CRM, SalesCandy) through
+  automated billing and collections (Credit Control), accounting and financial
+  reporting, statutory compliance (HIMS/KPKT registry synchronization and
+  LHDN-compliant e-invoicing), commission control, and handover/defect
+  management. MHub runs a developer portal at developer.mhub.my and an
+  authentication-gated REST API at api.mhub.my for platform integrations.
 url: https://raw.githubusercontent.com/api-evangelist/mhub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Real Estate
+- Property Technology
+- PropTech
+- Malaysia
+- Sales
+- CRM
+- Accounting
+- E-Invoicing
+- SaaS
+apis:
+- name: MHub API
+  description: >-
+    MHub's REST API for its property-sales platform. The API is served from
+    api.mhub.my and is authentication-gated (all probed endpoints return HTTP
+    401); no public OpenAPI/Swagger definition was available at enrichment time.
+    Developer documentation is published at the MHub developer portal.
+  humanURL: https://developer.mhub.my
+  baseURL: https://api.mhub.my
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.mhub.my
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +63,25 @@ maintainers:
 common:
 - type: Website
   url: https://mhub.my
+- type: DeveloperPortal
+  url: https://developer.mhub.my
+- type: Documentation
+  url: https://developer.mhub.my
+- type: Blog
+  url: https://mhub.my/blog
+- type: ChangeLog
+  url: https://mhub.my/product-updates
+- type: ChangeLog
+  name: MHub Changelog (captured)
+  url: changelog/mhub-changelog.yml
+- type: Pricing
+  url: https://mhub.my/packages
+- type: DomainSecurity
+  url: security/mhub-domain-security.yml
+- type: LLMsTxt
+  url: llms/mhub-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
