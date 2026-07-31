@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+source: https://mhub.my/product-updates
+name: MHub Product Updates
+summary: >-
+  MHub publishes a dated "What's new in MHub" product-updates page covering the
+  latest enhancements, new features, and improvements across its property-technology
+  modules (Showroom, Credit Control, Accounting, CRM, E-Invoice). This is a
+  product-level changelog for the SaaS platform, not a versioned API changelog.
+scheme: dated-monthly
+current_version: null
+entries:
+- period: December 2025
+  date: '2025-12'
+  modules:
+  - Showroom
+  - Credit Control
+  - Accounting
+  breaking: false
+  highlights:
+  - title: December 2025 Product Updates
+    summary: >-
+      More control for admins. Fewer manual clean-ups for sales teams.
+    modules: [Showroom, Credit Control, Accounting]
+  - title: 'MHub Showroom: Fresh UI, Smoother Workflows, and Smarter Control'
+    summary: >-
+      The Showroom interface got friendlier with small but powerful upgrades that
+      make everyday tasks smoother and more visual.
+    modules: [Showroom]
+  - title: 'Credit Control Just Got Smarter: Key Updates to Boost Your Workflow'
+    summary: >-
+      Updates designed to enhance billing, reporting, and communication processes
+      within Credit Control and Accounting.
+    modules: [Credit Control, Accounting]
+  - title: 'MHub Accounting: Major Updates for Better Accuracy and Efficiency'
+    summary: >-
+      New tools and refinements designed to make financial workflows smoother, more
+      compliant, and less manual.
+    modules: [Accounting]
+notes: >-
+  Only the most recent published window (December 2025) was captured verbatim; the
+  live page at https://mhub.my/product-updates is the source of truth. No public,
+  versioned API changelog was found (the API at api.mhub.my is authentication-gated).
