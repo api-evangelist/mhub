@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MHub is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+MHub is a Malaysian property-technology (proptech) platform operated by TRB Ventures Sdn Bhd and backed by 500 Global. It gives real-estate developers an integrated system to manage the entire new-property sales cycle — from lead generation, launch, and online booking (Showroom, CRM, SalesCandy) through automated billing and collections (Credit Control), accounting and financial reporting, statutory compliance (HIMS/KPKT registry synchronization and LHDN-compliant e-invoicing), commission control, and handover/defect management. MHub runs a developer portal at developer.mhub.my and an authentication-gated REST API at api.mhub.my for platform integrations.
 
-Backed by: 500-global — https://mhub.my
+**Areas:** Company · Real Estate · PropTech · Malaysia · Sales · CRM · Accounting · E-Invoicing · Software-as-a-Service
+
+## MHub on APIs.io
+
+Everything profiled for MHub is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mhub/](https://apis.io/providers/mhub/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [MHub API](https://apis.io/apis/mhub/mhub-api/) — MHub's REST API for its property-sales platform. The API is served from api.mhub.my and is authentication-gated (all probed endpoints return HTTP 401); no…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mhub Domain Security](https://apis.io/security/mhub/mhub-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mhub.my)
+- [Documentation](https://developer.mhub.my)
+- [Pricing](https://mhub.my/packages)
+- [Changelog](https://mhub.my/product-updates)
+- [Blog](https://mhub.my/blog)
+
+## API Evangelist rating
+
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mhub/](https://apis.io/providers/mhub/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MHub: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mhub/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
